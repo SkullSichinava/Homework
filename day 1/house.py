@@ -2,7 +2,7 @@ from turtle import *
 # we want to paint a house
 # grass
 # bgcolor("green") 
-# speed(30)
+speed(30)
 width(7)
 color("purple")
 begin_fill()
