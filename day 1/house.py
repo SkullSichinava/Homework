@@ -1,7 +1,7 @@
 from turtle import *
 # we want to paint a house
 # grass
-# bgcolor("green") 
+bgcolor("green") 
 speed(30)
 width(7)
 color("purple")
