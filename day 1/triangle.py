@@ -1,8 +1,8 @@
 from turtle import *
 # draw a triagle
-# speed(30)
-# width(7)
-# bgcolor("blue")
+speed(30)
+width(7)
+bgcolor("blue")
 width(7)
 color("yellow")
 shape("turtle")
