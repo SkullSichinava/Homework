@@ -1,6 +1,6 @@
-age=(5) # age of my brother
-print(age)
-age=(48) # age of my dad
-print(age)
-age=(44) # age of my mom
-print(age)
+momage=44
+brotherage=5
+dadage=48
+myageafter10years=16 + 10
+print(myageafter10years)
+print(dadage / myageafter10years)
