@@ -1,4 +1,4 @@
-age=(48 + 10) # my dads age after 10 years
-print(age)
-age=(16 + 10) # my age after 10 years
-print(age)
+age=(48) # age of my dad
+print(age + 10)
+age=(16) # my age
+print(age + 10)
