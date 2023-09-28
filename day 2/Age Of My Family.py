@@ -1,2 +1,6 @@
-device= "SAMSUNG"
-print(device)
+age=("my brother is 5 years old")
+print(age)
+age=("my dad is 48 years old")
+print(age)
+age=("my mom is 44 years old")
+print(age)

@@ -3,7 +3,7 @@
 # print(name)
 name = "luka"
 surname = "sichinava"
-age = 15
+age = 16
 height = 175.0
 knows_programming = True
 is_ugly = False
