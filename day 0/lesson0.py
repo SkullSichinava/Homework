@@ -1,11 +1,13 @@
 from turtle import *
 # we want to paint a house
 # grass
-bgcolor("green") 
-speed(30)
+# bgcolor("green") 
+# speed(30)
 width(7)
 color("purple")
 begin_fill()
+
+
 #step 1: draw a square
 shape("turtle")
 forward(200)
@@ -18,6 +20,8 @@ forward(200)
 left(90)
 end_fill()
 # end of square
+
+
 # drawing a door
 forward(70)
 color("yellow")
@@ -39,6 +43,8 @@ forward(200)
 left(120)
 forward(200)
 end_fill()
+
+
 # draw first window
 left(120)
 penup()
@@ -55,6 +61,8 @@ right(90)
 forward(40)
 right(90)
 end_fill()
+
+
 # draw second window
 right(180)
 penup()
