@@ -5,6 +5,6 @@ while True:
     print("going back to home")
     print("having lunch")
     print("doing homework")
-    print("studying at GOA")
+    print("studying programing at GOA")
     print("going to sleep")
     
