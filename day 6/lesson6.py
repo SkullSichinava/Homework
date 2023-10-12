@@ -5,4 +5,3 @@ while i < 30:
     else:
         print(str(i) + " კენტი")
     i += 1
-
