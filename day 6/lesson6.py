@@ -1,5 +1,5 @@
 i = 1
-while i < 30:
+while i < 31:
     if i % 2 == 0:
         print(str(i) + " ლუწი")
     else:
