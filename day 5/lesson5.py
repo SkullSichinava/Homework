@@ -5,3 +5,5 @@ while i < 31:
     else:
         print(str(i) + " კენტი")
     i += 1
+
+print("FINISHED")
