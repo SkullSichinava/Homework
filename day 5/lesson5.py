@@ -6,4 +6,4 @@ while i < 31:
         print(str(i) + " კენტი")
     i += 1
 
-print("FINISHED")
+print("FINISHED!")
