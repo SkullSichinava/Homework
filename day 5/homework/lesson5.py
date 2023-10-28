@@ -7,3 +7,14 @@ while i < 31:
     i += 1
 
 print("FINISHED!")
+
+
+while True:
+    print("waking up")
+    print("having breakfast")
+    print("going to school")
+    print("going back to home")
+    print("having lunch")
+    print("doing homework")
+    print("studying programing at GOA")
+    print("going to sleep")
