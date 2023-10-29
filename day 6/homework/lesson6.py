@@ -1,10 +1,20 @@
-total_price = 0
-i = 0
-while i < 13:
-    age = int(input())
-    if age < 13:
-        total_price += 0
+i = 1
+while i < 31:
+    if i % 2 == 0:
+        print(str(i) + " ლუწი")
     else:
-        total_price += 25
+        print(str(i) + " კენტი")
     i += 1
-print(total_price)
+
+print("FINISHED!")
+
+
+while True:
+    print("waking up")
+    print("having breakfast")
+    print("going to school")
+    print("going back to home")
+    print("having lunch")
+    print("doing homework")
+    print("studying programing at GOA")
+    print("going to sleep")
