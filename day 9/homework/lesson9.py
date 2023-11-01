@@ -1,8 +1,9 @@
-x = [2, 4, 6, 2, 4, 7, 2, 9]
-x.remove(4)
-
-x.remove(4)
-print(x)
+old_list = [2, 4, 6, 2, 4, 7, 2, 9]
+new_list = []
+for num in old_list:
+    if num != 4:
+        new_list.append(num)
+print(new_list)
 
 
 family = ["Fatima", "Mamuka", "Luka", "Saba"]
