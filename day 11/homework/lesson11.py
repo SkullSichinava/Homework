@@ -13,3 +13,4 @@ def name_list(name1, name2, name3):
     print(names_combined)
 
 name_list("ლუკა","საბა","მამუკა")
+
