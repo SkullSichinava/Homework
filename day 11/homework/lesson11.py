@@ -1,10 +1,10 @@
-def is_triangle(a, b, c):
+def triangle(a, b, c):
     if a + b > c and a + c > b and b + c > a:
         print("ასეთი სამკუთხედი იარსებებს")
     else:
         print("ასეთი სამკუთხედი ვერ იარსებებს")
 
-is_triangle(5, 6, 7)
+triangle(5, 6, 7)
  
 
 
