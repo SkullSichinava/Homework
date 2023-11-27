@@ -1,0 +1,12 @@
+h1,h2,button,p{
+    color: tomato;
+    font-size: 20 px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+    text-decoration-line: underline;
+    text-decoration-color: tomato;
+    text-decoration-style: dotted;
+}
+
