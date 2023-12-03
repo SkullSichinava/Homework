@@ -30,3 +30,5 @@ def find_average(array):
         return sum(array) / len(array)
     else:
         return 0
+    
+        
