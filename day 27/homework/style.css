@@ -1,5 +1,7 @@
 body{
     background-color: #000000c9;
+    background-image: url(Photos/Hacker.png);
+    text-decoration: none;
 }
 
 h1.info{
