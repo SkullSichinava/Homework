@@ -1,0 +1,68 @@
+body{
+    background-color: #000000c9;
+}
+
+h1.info{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    text-decoration: none;
+}
+
+h1.desc{
+    color:rgb(51, 255, 0);
+    text-align: center;
+    text-decoration: none;
+}
+
+h1.skill{
+    color: rgb(127, 255, 212);
+    text-align: center;
+    text-decoration: none;
+}
+
+h1.link{
+    color: rgb(255, 140, 0);
+    text-align: center;
+    text-decoration: none;
+}
+
+h1.cont{
+    color: rgb(233, 1, 163);
+    text-align: center;
+    text-decoration: none;
+}
+
+p.bio{
+    color: rgb(0, 0, 255);
+    text-align: center;
+    text-decoration: none;
+}
+
+p.skill{
+   color: rgb(136, 255, 0);
+   text-align: center;
+   text-decoration: none;
+}
+
+a.link1{
+    color: rgb(47, 0, 255);
+    text-align: center;
+    text-decoration: none;
+}
+
+a.link2{
+    color: rgb(128, 128, 128);
+    text-align: center;
+    text-decoration: none;
+}
+
+form{
+    color: rgb(255, 255, 0);
+    text-align: center;
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
