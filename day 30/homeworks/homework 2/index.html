@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Student Registration Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div>
+        <h1 id="Info">Student Registration Form</h1>
+
+        <form>
+
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" placeholder="Enter First Name" required><br>
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" placeholder="Enter Last Name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Enter Email" required><br>
+        
+        </form>
+        </div>
+     
+        <div>
+        <form>
+        <p>Gender:</p>
+        <input type="radio" name="male" id="Gender">
+        <label for="male">Male</label>
+        <input type="radio" name="female" id="Gender">
+        <label for="female">Female</label>
+
+        <br><label for="dateofbirth"><br>Date Of Birth:</label><br>
+        <input type="text" id="email" placeholder="mm/dd/yyyy" required>
+       
+        <br><label for="address">Address:</label><br>
+        <textarea id="message"></textarea>
+
+        <br><label for="city">City:</label><br>
+        <input type="text" id="city"><br>
+
+        <br><label for="state">State:</label><br>
+        <input type="text" id="state"><br>
+
+        <br><label for="password">Password:</label><br>
+        <input type="text" id="password" placeholder="Enter Password" required><br>
+    
+        <p>Specialization:</p>
+        <input type="checkbox" name="computer service" id="specialization">
+        <label for="specialization">Computer Servive<br></label>
+        <input type="checkbox" name="information technology" id="specialization">
+        <label for="specialization">Information Technology<br></label>
+        <input type="checkbox" name="computer architecture" id="specialization">
+        <label for="specialization">Computer Architecture<br></label>
+        <input type="checkbox" name="tele communication" id="specialization">
+        <label for="specialization">Tele Communication<br></label>
+        
+        <br><button>Send</button>
+        </form>
+      </div>
+    </body>
+</html>
