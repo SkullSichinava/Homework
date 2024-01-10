@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-image: url(Photos/goa_logo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+form{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 128, 0);
+}
+
+p{
+    text-align: center;
+    color: rgb(0, 128, 0)
+}
+
+
