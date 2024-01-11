@@ -1,0 +1,19 @@
+.asus{
+    color: rgb(0, 0, 255);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url(Photos/Asus\ Wallpaper.jpg);
+    background-attachment: fixed;
+}
+
+p{
+    text-align: center;
+    color: rgb(0, 0, 255);
+}
+
+a{
+    text-align: center;
+}
