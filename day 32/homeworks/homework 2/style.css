@@ -1,6 +1,8 @@
 header{
     color: blue;
     text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body{
@@ -11,9 +13,39 @@ body{
 main{
     color: blue;
     text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 footer{
-    color: blue;
     text-align: center;
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto;
+    text-align: center;
+}
+
+.input{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+.button{
+    color: #fff;
+    background-color: blue;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
