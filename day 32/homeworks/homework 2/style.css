@@ -1,0 +1,19 @@
+header{
+    color: blue;
+    text-align: center;
+}
+
+body{
+    background-image: url(Photos/IT\ Solution.jpg);
+    background-size: cover;
+}
+
+main{
+    color: blue;
+    text-align: center;
+}
+
+footer{
+    color: blue;
+    text-align: center;
+}
