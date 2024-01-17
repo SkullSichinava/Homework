@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(goa_logo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #04662d;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #007019f8;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    border: 1px solid #cccccc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 30%;
+    float: right;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #00ff0d;
+}
+
+p{
+    color: #00ff55;
+}
+
+h3{
+    color: #00ff0d;
+}
