@@ -79,14 +79,3 @@ ul {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
 }
-
-.attribution {
-  font-size: 13px; 
-  text-align: center; 
-  color: hsl(0, 0%, 100%);
-  margin-top: 1rem;
-}
-
-.attribution a { 
-   color: hsl(228, 45%, 44%); 
-}
