@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img {
+img{
     max-width: 100%;
 }
 
-ul {
+ul{
     list-style-type: none;
 }
 
-body {
+body{
     font-size: 14px;
-    font-family: "inter";
+    font-family: "Montserrat";
     background-color:  hsl(30, 38%, 92%);
     display: flex;
     flex-direction: column;
@@ -28,24 +28,24 @@ body {
 
 
 button, 
-li {
-    font-family: "inter";
+li{
+    font-family: "Fraunces";
 }
 
-h1 {
+h1{
     color: hsl(212, 21%, 14%);
 }
 
-.price {
+.price{
     color: hsl(158, 36%, 37%);
 }
 
 h1
-.price {
-    font-family: "inter";
+.price{
+    font-family: "Fraunces";
 }
 
-h2 {
+h2{
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: 500;
@@ -53,51 +53,51 @@ h2 {
     letter-spacing: 0.2rem;
 }
 
-p {
+p{
     color:hsl(228, 12%, 48%);
     line-height: 1.8;
 }
 
-.container {
+.container{
     max-width: 600px;
 }
 
-.container h1 {
+.container h1{
     margin-bottom: 1rem;
     font-size: 2rem;
 }
 
-.container article:first-child img {
+.container article:first-child img{
     border-radius: 1 rem 1rem 0 0;
 }
 
-.container article:last-child {
+.container article:last-child{
     background-color: hsl(0, 0%, 100%);
     padding: 1.5rem;
     border-radius: 0 0 1rem 1rem;
     margin-top: -1rem;
 }
 
-.container p {
+.container p{
     margin-bottom: 2rem;
 }
 
-.container ul {
+.container ul{
     display: flex;
     align-items: center;
     margin-bottom: 2rem;
 }
 
-.container ul li:first-child {
+.container ul li:first-child{
     font-size: 2rem;
     margin-right: 1.5rem;
 }
 
-.container ul li:nth-child(2) {
+.container ul li:nth-child(2){
     color: hsl(228, 12%, 48%);
 }
 
-.container .btn {
+.container .btn{
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
     font-weight: 700;
@@ -114,33 +114,33 @@ p {
     justify-content: center;
 }
 
-.container .btn:hover {
+.container .btn:hover{
     background-color: hsl(158, 38%, 20%)
 }
 
-.container .btn img {
+.container .btn img{
     margin-right: 0.5rem;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 640px){
   .container{
     display: grid;
    grid-template-columns: repeat(2, 1fr);
   }
 
 
-.container article:first-child img {
+.container article:first-child img{
     border-radius: 0.625 0 0 0.625rem;
     width: 100%;
 }
 
-.container article:last-child {
+.container article:last-child{
     border-radius: 0 0.625rem 0.625rem 0;
     margin-top: 0;
     padding: 1.5rem 1.5rem 0;
 }
 
-picture img {
+picture img{
     height: 100%;
 }
 

@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-* { 
+*{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+body{
     font-family: "Inter";
     background-color: hsl(0, 0%, 8%);
     display: flex;
@@ -16,11 +16,11 @@ body {
     min-height: 100vh;
 }
 
-ul {
+ul{
     list-style-type: none;
 }
 
-.container {
+.container{
     background-color: hsl(0, 0%, 12%);
     max-width: 400px;
     width: 100%;
@@ -28,7 +28,7 @@ ul {
     border-radius: 10px;
 }
 
-.container img {
+.container img{
    width: 80px;
    height: 80px;
    border-radius: 50%;
@@ -37,31 +37,31 @@ ul {
    margin-bottom: 1.25rem;
 }
 
-.container h1 {
+.container h1{
    font-size: 1.5rem;
    color: hsl(0, 0%, 100%);
    text-align: center;
 }
 
-.container h1 span {
+.container h1 span{
     color: hsl(75, 94%, 57%);
     display: block;
     font-size: 1rem;
     margin: 0.5rem 0 1rem;
 }
 
-.container p {
+.container p{
     color: hsl(0, 0%, 100%);
     text-align: center;
 }
 
-.container ul {
+.container ul{
     display: grid;
     gap: 0.5rem;
     margin-top: 2rem;
 }
 
-.container ul li button {
+.container ul li button{
     background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 100%);
     font-size: 1rem;
@@ -75,7 +75,7 @@ ul {
     transition: all 0.15s ease-in-out;
 }
 
-.container ul li button:hover {
+.container ul li button:hover{
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
 }
