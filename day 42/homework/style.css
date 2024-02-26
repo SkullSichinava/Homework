@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    animation-name: change-color;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+  }
+  
+  
+  @keyframes change-color{
+    0%{
+      background-color: yellow;
+      border-radius: 20px;
+      box-shadow: 0px 0px 10px yellow;
+      transform: translateX(100px);
+    }
+    40%{
+      transform: rotate(180deg) translateY(300px);
+      background-color: green;
+      box-shadow: 0px 0px 50px green;
+      border-radius: 50%;
+    }
+    80%{
+      transform: rotate(180deg) translateY(300px);
+      background-color: green;
+      box-shadow: 0px 0px 50px green;
+      border-radius: 50%;
+    }
+    100%{
+      background-color: yellow;
+      border-radius: 20px;
+      box-shadow: 0px 0px 10px yellow;
+      transform: rotate(360deg) translate(100px);
+    }
+  }
