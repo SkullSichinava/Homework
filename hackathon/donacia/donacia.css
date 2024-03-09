@@ -1,0 +1,46 @@
+.depositmain{
+    height: 300px;
+    width: 650px;
+    background-color: green;
+    border-radius: 20px;
+    border: 5px solid black;
+    display: flex;
+}
+.atm{
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 4px solid black;
+    height: 30%;
+    padding: 10px;
+    background-color:rgb(1, 98, 1);
+    align-items: center;
+    margin: 10px;
+}
+.depositsecond{
+    height: 300px;
+    width: 650px;
+    background-color: green;
+    border-radius: 20px;
+    border: 5px solid black;
+    display: flex;
+}
+
+body{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(129, 151, 129);
+}
+.ath{
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 4px solid black;
+    height: 34%;
+    padding: 10px;
+    background-color:rgb(1, 98, 1);
+    align-items: center;
+    margin: 10px;
+}
