@@ -1,5 +1,6 @@
-// A function that changes color
-function colorChanger(){
-    var selected = document.getElementById('first');
-    selected.style.color = 'red';
-}
+window.onload = function() {
+    var paragraphs = document.querySelectorAll("p");
+    paragraphs.forEach(function(paragraph) {
+      paragraph.style.color = "red";
+    });
+  };

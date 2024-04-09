@@ -1,11 +1,11 @@
-function infoJoin(){}
-    var person = {
-    name: "Luka",
-    surname: "Sichinava",
-    age: 24,
-    location: "Vefhisthaosani St 27",
-    hobby: "programming, sports,"
-    };
-  
- 
-return infoJoin();
+let name = "Luka" 
+let surname = "Sichinava"
+let age = 16
+let residence = "Tbilisi"
+let hobby = "Football"
+
+function infoJoin(firstName, lastName, age, residence, hobby) {
+    return `${firstName} ${lastName} ${age} ${residence} ${hobby}.`;
+}
+
+console.log(infoJoin(firstName, lastName, age, residence, hobby));
