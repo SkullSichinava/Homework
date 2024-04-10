@@ -1,11 +1,11 @@
 let name = "Luka" 
 let surname = "Sichinava"
 let age = 16
-let residence = "Tbilisi"
+let location = "Tbilisi"
 let hobby = "Football"
 
-function infoJoin(firstName, lastName, age, residence, hobby) {
-    return `${firstName} ${lastName} ${age} ${residence} ${hobby}.`;
-}
 
-console.log(infoJoin(firstName, lastName, age, residence, hobby));
+function infoJoin(name,surname,age,location,hobby){
+    const result = name + " " + surname + " " + age + " " + location + " " + hobby;
+    return result;
+}
