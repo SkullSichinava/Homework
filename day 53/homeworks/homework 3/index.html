@@ -7,12 +7,29 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <p id="p1">This is paragraph 1</p>
-    <p id="p2">This is paragraph 2</p>
-    <p id="p3">This is paragraph 3</p>
+    <p id="p1">This is Green</p>
+    <p id="p2">This is Red</p>
+    <p id="p3">This is Yellow</p>
 
     <button onclick="colorChanger1()">Green</button>
     <button onclick="colorChanger2()">Red</button>
     <button onclick="colorChanger3()">Yellow</button>
+
+<script>
+    function colorChanger1(){
+    var paragraph = document.getElementById("p1");
+    paragraph.style.color = "green";
+}
+
+    function colorChanger2(){
+    var paragraph = document.getElementById("p2");
+    paragraph.style.color = "red";
+}
+
+    function colorChanger3(){
+    var paragraph = document.getElementById("p3");
+    paragraph.style.color = "yellow";
+}
+ </script>
 </body>
 </html>

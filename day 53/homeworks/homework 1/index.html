@@ -7,6 +7,21 @@
     <script src="script.js"></script>
 </head>
 <body>
-      
+    <p id="firstParagraph">This is the paragraph 1</p>
+    <p id="secondParagraph">This is the paragraph 2</p>
+    <p id="thirdParagraph">This is the paragraph 3</p>
+    
+    <button onclick="rotateParagraphs()">Change Paragraphs</button>
+<script>
+    function rotateParagraphs() {
+    var firstText = document.getElementById("firstParagraph").innerText;
+    var secondText = document.getElementById("secondParagraph").innerText;
+    var thirdText = document.getElementById("thirdParagraph").innerText;
+
+    document.getElementById("firstParagraph").innerText = thirdText;
+    document.getElementById("secondParagraph").innerText = firstText;
+    document.getElementById("thirdParagraph").innerText = secondText;
+}
+</script>
 </body>
 </html>
