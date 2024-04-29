@@ -8,6 +8,8 @@ const randomPerson = {
         workSalary: 200000
     }
 }
+
+
 console.log(randomPerson.work.workTime)
 console.log(randomPerson.work.workSalary)
 console.log(randomPerson.hisBrotherWork.workTime)
