@@ -8,6 +8,7 @@ const anotherPerson = {
     age: "16",
     name : "luka",
     lastName: "sichinava"
+    
 }
 anotherPerson.country = "georgia"
 anotherPerson.city = "tbilisi"
